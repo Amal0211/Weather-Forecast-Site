@@ -1,0 +1,145 @@
+"location": {
+    "city": "Kanpur",
+    "woeid": 2295378,
+    "country": "India",
+    "lat": 26.4489,
+    "long": 80.318123,
+    "timezone_id": "Asia/Kolkata"
+  },
+  "current_observation": {
+    "pubDate": 1719951296,
+    "wind": {
+      "chill": 34,
+      "direction": "WSW",
+      "speed": 14
+    },
+    "atmosphere": {
+      "humidity": 82,
+      "visibility": 3.98,
+      "pressure": 995.9
+    },
+    "astronomy": {
+      "sunrise": "5:20 AM",
+      "sunset": "7:05 PM"
+    },
+    "condition": {
+      "temperature": 29,
+      "text": "Cloudy",
+      "code": 26
+    }
+  },
+  "forecasts": [
+    {
+      "day": "Wed",
+      "date": 1719936000,
+      "high": 33,
+      "low": 27,
+      "text": "Cloudy",
+      "code": 26
+    },
+    {
+      "day": "Thu",
+      "date": 1720022400,
+      "high": 34,
+      "low": 27,
+      "text": "Thunderstorms",
+      "code": 4
+    },
+    {
+      "day": "Fri",
+      "date": 1720108800,
+      "high": 34,
+      "low": 27,
+      "text": "Thunderstorms",
+      "code": 4
+    },
+    {
+      "day": "Sat",
+      "date": 1720195200,
+      "high": 31,
+      "low": 27,
+      "text": "Cloudy",
+      "code": 26
+    },
+    {
+      "day": "Sun",
+      "date": 1720281600,
+      "high": 32,
+      "low": 28,
+      "text": "Showers",
+      "code": 11
+    },
+    {
+      "day": "Mon",
+      "date": 1720368000,
+      "high": 32,
+      "low": 28,
+      "text": "Partly Cloudy",
+      "code": 30
+    },
+    {
+      "day": "Tue",
+      "date": 1720454400,
+      "high": 33,
+      "low": 28,
+      "text": "Mostly Cloudy",
+      "code": 28
+    },
+    {
+      "day": "Wed",
+      "date": 1720540800,
+      "high": 33,
+      "low": 28,
+      "text": "Cloudy",
+      "code": 26
+    },
+    {
+      "day": "Thu",
+      "date": 1720627200,
+      "high": 35,
+      "low": 28,
+      "text": "Thunderstorms",
+      "code": 4
+    },
+    {
+      "day": "Fri",
+      "date": 1720713600,
+      "high": 36,
+      "low": 28,
+      "text": "Thunderstorms",
+      "code": 4
+    },
+    {
+      "day": "Sat",
+      "date": 1720800000,
+      "high": 35,
+      "low": 28,
+      "text": "Thunderstorms",
+      "code": 4
+    }
+  ]
+}
+
+
+    <div id="loader"></div>
+    
+    <div id="head">
+      <h1>Weather for <span id="city_name">Kanpur</span></h1>
+    </div>
+    <div class="nav">
+      
+      <div id="sun">
+        <div id="sunrise">
+        <strong>Sunrise :</strong><span id="SunriseValue">99:99 a.m</span>
+        </div>
+        <div id="divide"></div>
+        <strong>Sunset :</strong> <span id="SunsetValue">99:99 a.m</span> 
+      </div>
+    
+    <div id="both">
+    <input type="search" id="searchbar" placeholder="Search City">
+    <button type="submit" id="submit_btn" >
+      <image src="images/search.svg" id="search_img"></image>
+    </button>
+    <button id="darkmodebutton">Light Mode</button>
+    </div>

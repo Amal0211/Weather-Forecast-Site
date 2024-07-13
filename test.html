@@ -1,0 +1,59 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="hello" onclick="hello()">hello</h1>
+    <h1 id="bye">bye</h1>
+    <script>
+        /*function amal(){
+        let a=document.getElementById("hello");
+        promis=new Promise(function(resolve,reject){
+            a.innerHTML="amal";
+            resolve();
+        })
+        promis.then(function(){
+            document.getElementById("bye").innerHTML="BYE";
+        })
+        }*/
+       let a=new Promise(function(myres,myerr){
+        myres(){
+            console.log('res');
+        };
+       });
+       
+    </script>
+</body>
+</html>-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    function test(){
+        var a=prompt("enter a no.")
+        if(a>18){
+            if(a>=100){
+                document.write(`<h1>You are too aged!! Grandma!!</h1>`)
+                 document.write(`<body bgcolor='yellow'>`);
+                document.write(`<h1> Redirecting you to old aged home....</h1>`)
+            }
+            else{
+            document.write(`<body bgcolor='yellow'>`);
+            document.write(`<h1> Welcome</h1>`);
+            }
+        }
+
+    }
+
+</script>
+<body onload="test()">
+</body>
+</html>

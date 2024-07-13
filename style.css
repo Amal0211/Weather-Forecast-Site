@@ -1,0 +1,90 @@
+:root{
+    --background-color: #000000;
+    --text-color: #ffffff;
+}
+[data-theme="light"]{
+    --background-color:#ffffff;
+    --text-color: #000000;
+}
+body{
+    background-color: var(--background-color);
+    color:var(--text-color);
+}
+
+
+#searchbar{
+    text-align:left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    height: 2.5em;
+    width:200px;
+    border-radius:100px; 
+    background-color: white;
+}
+#divide{
+    height:0.1em;
+    background-color:black;
+    width:100%;
+
+}
+#nav{
+    position: relative;
+    height:3em;
+    margin:1%;
+    
+}
+
+#sun{
+    position: absolute;
+    top:50%;
+    color:#000000;
+    border-radius: 0.5em;
+    padding: 5px;
+    transform:translateY(-50%);
+    left:0;
+    height: auto;
+    width: auto;
+    background-color: white;
+}
+#both{
+    position: absolute;
+
+    top:50%;
+    transform:translateY(-50%);
+    right:0;
+    
+}
+#submitbtn{
+    height: 2.5em;
+    width:2.5em;
+    border-radius: 100%;
+}
+#searchimg{
+    height: 80%;
+}
+#head{
+    text-align: center;
+}
+#loader{
+    display: flex;
+    background: url(images/loader.gif) no-repeat center center;
+    height:100vh;
+    background-size: 5%;
+    width:100%;
+    z-index:100;
+    position: fixed;
+}
+#city_name{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#darkmodebutton{
+    background-color: #343a40;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+
+}
